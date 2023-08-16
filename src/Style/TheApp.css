@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Boxes {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.Boxes div {
+  width: 45%;
+  margin: auto;
+}
+/* .Boxes div:first-child {
+  border-bottom: 5px solid orange;
+} */
+.Boxes img{
+    margin: auto;
+}
+
+@media all and (min-width: 400px) and (max-width: 700px) {
+.Boxes{
+  display:  grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: auto;
+  width: 80%;
+}
+.Boxes div{
+  width: 80%;
+}
+
+}
+ 
